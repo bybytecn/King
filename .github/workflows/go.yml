@@ -22,5 +22,7 @@ jobs:
       run: go build -v -o App ./... 
     - name: Upload
       uses: actions/upload-artifact@v2 App
-    - name: Test
-      run: go test -v ./...
+      with: 
+         name: King
+         path: App
+   
