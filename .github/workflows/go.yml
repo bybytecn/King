@@ -21,8 +21,8 @@ jobs:
     - name: Build
       run: go build -v -o App ./... 
     - name: Upload
-      uses: actions/upload-artifact@v2 App
+      uses: actions/upload-artifact@v2 Ap
       with: 
          name: King
-         path: App
+         path: Ap
    
