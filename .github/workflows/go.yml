@@ -20,9 +20,9 @@ jobs:
 
     - name: Build
       run: go build -v -o App ./... 
-    - name: Upload
-      uses: actions/upload-artifact@v2 Ap
-      with: 
-         name: King
-         path: Ap
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.0.0
+      with:
+        path: main.go
+
    
